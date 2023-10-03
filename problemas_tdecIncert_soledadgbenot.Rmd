@@ -4,10 +4,6 @@ author: "Soledad Gallego Benot"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## PROBLEMA 1
 
 ```{r, echo=FALSE}
