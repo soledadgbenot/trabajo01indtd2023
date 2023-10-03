@@ -1,0 +1,24 @@
+---
+title: "Problemas de Teoría de la Decisión bajo Incertidumbre"
+author: "Soledad Gallego Benot"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## PROBLEMA 1
+
+```{r, echo=FALSE}
+library(knitr)
+tabla <- data.frame(
+  "Procedimiento" = c("Propuesta 1", "Propuesta 2", "Propuesta 3", "Propuesta 5"),
+  "euros/unidad" = c(88, 125, 136, 95),
+  "euros/propuesta" = c(160, 200, 230, 190))
+kable(tabla)
+```
+
+## PROBLEMA 2
+
+Un estudiante con un nivel medio-avanzado en inglés, pero sin certificar, está considerando sacarse el título correspondiente para mejorar su currículum y tener mejores oportunidades académicas y laborales. Tiene la obligación de obtener alguna titulación para la obtención de su título de grado. Está valorando las opciones de First Certificate (B2) y Advanced Certificate (C1). El coste del examen de B2+curso es de 400€ y el coste de C1+curso de 600€. Si aprueba el examen de B2 obtendrá una beca de 400€, por lo que le saldrá gratis. En cambio, si aprueba el examen de C1 obtiene una de 1000€. Por otro lado, existe un examen que te permite certificar cualquiera de los 2 niveles cuyo coste+curso es de 900€ y la beca correspondiente en caso de superarlo a nivel B2 es de 1000€ y de 1150€ para el nivel C1.
