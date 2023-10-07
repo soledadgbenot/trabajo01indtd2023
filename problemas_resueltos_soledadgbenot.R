@@ -142,7 +142,7 @@ kable(tablaPb2)
 resultado <- criterio.Todos(tablaPb2, favorable = T)
 kable(resultado)
 
-criterio.Todos(tablaPb2, favorable = T, alfa=0.35)
+kable(criterio.Todos(tablaPb2, favorable = T, alfa=0.35))
 
 #CONCLUSIÓN: La mayoría de los criterios considera que realizar el C1 es lo mejor que el 
 #estudiante puede hacer a nivel económico. El criterio pesimista o criterio de Wald, tal y cómo su
