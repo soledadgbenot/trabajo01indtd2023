@@ -8,12 +8,12 @@
 source("teoriadecision_funciones_incertidumbre.R")
 
 #######PROBLEMA 1 -- SITUACIÓN FAVORABLE########
-
+library(knitr)
 tablaPb1 <- crea.tablaX(c(88,160,130,
                           125,200,233,
                           136,230,98,
                           95,190,106), numalternativas = 4, numestados = 3)
-tablaPb1
+kable(tablaPb1)
 
 ##Primero vamos a considerar la situación favorable, es decir, suponiendo que se tratasen de posibles beneficios
 
@@ -138,8 +138,9 @@ criterio.PuntoIdeal(tablaPb1, favorable = F)
 tablaPb2 <- crea.tablaX(c(-400, 0, 0,
                           -600, 400, 400,
                           -900, 100, 250), numalternativas = 3, numestados = 3)
+kable(tablaPb2)
 resultado <- criterio.Todos(tablaPb2, favorable = T)
-resultado
+kable(resultado)
 
 criterio.Todos(tablaPb2, favorable = T, alfa=0.35)
 
