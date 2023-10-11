@@ -1,4 +1,4 @@
-# trabajo01indtd2023
+# Parte individual. Teoría de la Decisión. Teoría de la Decisión Bajo Incertidumbre. 4º Grado en Estadística
 Parte individual del primer trabajo de la asignatura Teoría de la Decisión. Decisión bajo incertidumbre
 Documentos principales:
   - Archivo tipo PDF proveniente de un RMarkdown que contiene los enunciados de los dos problemas creados bajo las directrices del trabajo.
